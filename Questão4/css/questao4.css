@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+#titulo1{
+    background-color: rgb(59, 161, 230);
+}
+#colorida{
+    background-color: blue;
+    width: 255px;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.nome{
+    margin-left: 30px;
+    width: 400px;
+}
+.nome2{
+    margin-left: 30px;
+    width: 400px;
+}
+.cpf{
+    margin-left: 40px;
+    width: 400px;
+}
+.email{
+    margin-left: 25px;
+    width: 400px;
+}
+.site{
+    margin-left: 10px;
+    width: 400px;
+}
+.endereco{
+    margin-left: 6px;
+    width: 400px;
+}
+.bairro{
+    margin-left: 25px;
+}
+.cep{
+    margin-left: 38px;
+}
+.uf{
+    margin-left:28px;
+}
+.telefone{
+    margin-left: 10px;
+}
+.fax{
+    margin-left: 19px;
+}
+.data{
+    margin-left: 30px;
+}
+.sexo{
+    margin-left: 15px;
+}
+.cel{
+    margin-right:2px;
+    margin-left: 20px;
+}
+.est{
+    margin-left: 10px;
+}
+.loguin{
+    margin-left: 22px;
+}
+.senha{
+    margin-left: 10px;
+}

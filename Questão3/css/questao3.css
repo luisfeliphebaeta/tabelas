@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.geral{
+    margin: 0 auto;
+    width: 800px;
+    height: 900px;
+    padding: 100px;
+    border: solid 1px rgb(32, 151, 52);
+    color: rgb(32, 151, 52);
+    background-color: rgb(196, 240, 203);;
+}
+.tab1{
+    
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    color: rgb(32, 151, 52);
+    border: solid 1px rgb(32, 151, 52);
+   
+}
+.tab2{
+    padding: 10px;
+    width: 300px;
+    height: 150px;    
+    float: right;
+    color: rgb(32, 151, 52);
+    border: solid 1px rgb(32, 151, 52);
+     
+}
+.distanciamento{
+    margin-top: 40px;
+    color: rgb(32, 151, 52);
+    border: solid 1px rgb(32, 151, 52);
+}
+.direita{
+    float: right;
+    color: rgb(32, 151, 52);
+}
+.esportes{
+    margin-top: 30px;
+    color: rgb(32, 151, 52);
+    border: solid 1px rgb(32, 151, 52);
+}
+.cadastro{
+    border: solid 1px rgb(32, 151, 52);
+}

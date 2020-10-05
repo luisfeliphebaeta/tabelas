@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.cor{
+    background-color: rgb(226, 200, 49);
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.email{
+    margin-left: 140px;
+}
+.senha{
+    margin-left: 145px;
+}
+.status{
+    margin-left: 143px;
+}
+.data{
+    margin-left: 95px;
+    width: 170px;
+}
+.tipo{
+    margin-left: 150px
+}
+.box{
+    margin-left: 95px
+}
+.box2{
+    margin-left: 25px
+}
+.botao{
+    margin-left: 150px
+}
+
+

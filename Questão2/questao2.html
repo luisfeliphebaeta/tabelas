@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Questão 2</title>
+
+    <link rel="stylesheet"  type="text/css" href="formulario/questao2.css">
+
+</head>
+<body>
+
+    <form name="formteste" action="" method="post">
+    <p class="cor"><strong>SISTEMA DE GESTÃO ACADEMICA</strong></p>
+    <p><strong>MANUTENÇÃO DE USUARIOS DO SISTEMA INTERNO</strong><p>
+
+    <p >
+        <label><strong>Loguin</strong></label>
+     <input type="email" name="email" required="required" class="email">
+    </p>
+
+    <p>
+        <label><strong>Senha</strong></label>
+        <input type="password" name="senha" required="required" class="senha">
+    </p>
+
+    <p>
+        <label><strong>Status</strong></label>
+         <select id="status" name="status" class="status">
+            <option value="" selected="selected"><strong>Inativo</strong></option>
+             <option value="" selected="selected"><strong>ativo</strong></option>
+         </select>    
+    </p>
+
+    <p>
+        <label><strong>Tipo</strong></label>
+         <input type="radio" id="tipo" name="tipo" value="tecnico" class="tipo">
+         <label for="tipo"><strong>Tecnico</strong></label>
+         <input type="radio" id="tipo" name="tipo" value="professor">
+         <label for="tipo"><strong>Professor</strong></label>
+         <input type="radio" id="tipo" name="tipo" value="aluno">
+         <label for="tipo"><strong>Aluno</strong></label>
+    </p>
+
+    
+    <p >
+        <label><strong>Data Criação</strong></label>
+        <input type="date" name="data" required="required" class="data">
+    </p>
+
+
+ <p>
+        <label><strong>Perfil</strong></label>
+        <input type="radio" id="perfil" name="perfil" value="convidado" class="tipo">
+         <label for="perfil"><strong>Convidado</strong></label>
+         <input type="radio" id="perfil" name="perfil" value="administrado">
+         <label for="perfil"><strong>Administrador</strong></label>
+    </p>
+
+    <p>
+        <input type="checkbox" id="compras" name="compras" value="compras" class="box">
+        <label for="compras"><strong>Compras</strong></label>
+        <input type="checkbox" id="biblioteca" name="biblioteca" value="biblioteca">
+        <label for="biblioteca"><strong>Biblioteca</strong></label>
+        <input type="checkbox" id="academico" name="academico" value="academico">
+        <label for="academico"><strong>Acadêmico</strong></label>
+    </p>
+
+   <table class="coment">
+    <td>
+        <label for="coment"><strong>Comentário:</strong></label>
+    </td>
+    <td>
+        <textarea cols="40" rows="10" id="coment" name="coment" placeholder="Deixe seu comentário"></textarea>
+    </td>
+   </table>
+
+ 
+<p >
+    <label><strong>Modulos</strong></label>
+    <input type="checkbox" id="documentação" name="documentação" value="documentação" class="box2">
+    <label for="biblioteca"><strong>Documentação</strong></label>
+    <input type="checkbox" id="Recursos humanos" name="Recursos humanos" value="Recursos humanos">
+    <label for="Recursos humanos"><strong>Recursos humanos</strong></label>
+    
+</p>
+<th colspan="2">
+    <input type="submit" id="enviar" name="enviar" value="Enviar Comentario"/ class="botao">
+</th>
+
+    </form>
+      
+
+    
+</body>
+</html>

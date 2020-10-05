@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"  type="text/css" href="css/questao3.css">
+
+</head>
+<body>
+
+  <fieldset class="geral">
+   <fieldset class="cadastro">
+    <legend><strong>Cadastro geral</strong></legend>
+        <fieldset class="tab2">
+            <legend><strong>Localização</strong></legend>
+            <td>
+            <label><strong>E-mail:</strong></label>
+            <br>
+            <input type="email" name="email" size="50px" maxlength="30px">
+            </td>
+            <tr>
+             <td>
+               <label><strong>Rua:</strong></label>
+               <br>
+               <input type="text" name="nome" size="50px" maxlength="30px">
+               </td>
+            </tr>    
+        </fieldset>
+        <fieldset class="tab1">
+         <legend><strong>Dados pessoais</strong></legend>
+        <td>
+        <label><strong>Nome completo:</strong></label>
+        <br>
+        <input type="text" name="nome" size="40px" maxlength="50px">
+        </td>
+        <tr>
+        <td>
+            <label for="prof"><strong>Profissão:</strong></label>
+            <br>
+            <select id="prof" name="prof">
+              <option value="" selected="selected">Sua profissão</option>
+              <option>Professor</option>
+              <option>Policial</option>
+              <option>Desempregado(a)</option>
+            </select>
+        </td>
+        </tr>
+       </fieldset>
+
+       <fieldset class="distanciamento" >
+        <legend><strong>Faixa etária</strong></legend>
+            <div class="direita">
+            <input type="radio" id="faixa" name="faixa" value="mais de 50 até 60 anos" >
+            <label for="faixa"><strong>mais de 50 até 60 anos</strong></label>
+            <br>
+            <input type="radio" id="faixa" name="faixa" value="mais de 50 até 60 anos">
+            <label for="faixa"><strong>mais de 50 até 60 anos</strong></label>
+            <br>
+            <input type="radio" id="faixa" name="faixa" value="mais de 60">
+            <label for="faixa"><strong>mais de 60</strong></label>
+            </div>
+            <div>
+            <input type="radio" id="faixa" name="faixa" value="até 20 anos">
+            <label for="faixa"><strong>até 20 anos</strong></label>
+            <br>
+            <input type="radio" id="faixa" name="faixa" value="mais de 20 até 30 anos">
+            <label for="faixa"><strong>mais de 20 até 30 anos</strong></label>
+            <br>
+            <input type="radio" id="faixa" name="faixa" value=">mais de 30 até 40 anos">
+            <label for="faixa"><strong>mais de 30 até 40 anos</strong></label>
+        </div>
+       </fieldset>
+
+       <fieldset class="distanciamento">
+            <legend><strong>Esportes que pratica</strong></legend>
+            <input type="checkbox" id="futebol" name="futebol" value="futebol">
+            <label for="futebol"><strong>Futebol de campo</strong></label>
+            <br>
+            <input type="checkbox" id="salao" name="bibliotsalaoeca" value="salao">
+            <label for="salao"><strong>Futebol de salão</strong></label>
+            <br>
+            <input type="checkbox" id="society" name="society" value="society">
+            <label for="society"><strong>Futebol society</strong></label>
+            <br>
+            <input type="checkbox" id="volei" name="volei" value="volei">
+            <label for="volei"><strong>Volei de quadra</strong></label>
+            <br>
+            <input type="checkbox" id="praia" name="praia" value="praia">
+            <label for="praia"><strong>Volei de praia</strong></label>
+            <br>
+            <input type="checkbox" id="natação" name="natação" value="natação">
+            <label for="natação"><strong>Natação em piscina</strong></label>
+            <br>
+            <input type="checkbox" id="mar" name="mar" value="mar">
+            <label for="mar"><strong>Natação em mar aberto</strong></label>
+        </fieldset>
+     </fieldset>
+
+       <fieldset class="distanciamento">
+           <legend>Comentário</legend>
+        <td>
+            <textarea cols="40" rows="10" id="coment" name="coment" placeholder="Deixe seu comentário"></textarea>
+       </fieldset>
+
+     
+
+</fieldset>
+</body>
+</html>
